@@ -9,7 +9,9 @@ Install
 -------
 clone the repository and try out
 
->> import storm
+```python
+import storm
+```
 
 
 Spouts, Bolts and Outlets
