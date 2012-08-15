@@ -1,6 +1,12 @@
 Realtime computing framework inspired by twitter's storm
 ========================================================
 
+Requirements
+------------
+zeromq
+pyzmq
+
+
 Warnning
 --------
 Currently pystorm is only a prototype, it does not (yet) support cluster computing
@@ -61,3 +67,6 @@ t.start()
 time.sleep(10)
 t.shutdown()
 ```
+
+
+See wordcount.py for more details
